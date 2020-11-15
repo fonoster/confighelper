@@ -31,7 +31,7 @@ The following is a minimal example of using this image.
 
 ```bash
 docker run -it \
-  -v $(pwd)/certs:/certs \
+  -v $(pwd)/config:/config \
   fonoster/confighelper
 ```
 
@@ -43,7 +43,7 @@ Run environment variables are used in the entry point script to render configura
 
 ## Volumes
 
-- `/certs` - Location of the generated certificates
+- `/config` - Location of the generated certificates
 
 ## Contributing
 

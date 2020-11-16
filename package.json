@@ -1,6 +1,6 @@
 {
   "name": "confighelper",
-  "version": "0.0.46",
+  "version": "0.0.47",
   "description": "Helper service for the creation of configuration files",
   "repository": {
     "type": "git",
@@ -19,11 +19,12 @@
   "homepage": "https://github.com/fonoster/confighelper",
   "main": "confighelper.js",
   "bin": {
+    "run": "config-server.js",
     "config-server": "config-server.js",
     "config-client": "config-client.js"
   },
   "dependencies": {
-    "@fonos/certs": "^0.0.46"
+    "@fonos/certs": "^0.0.47"
   },
   "preferGlobal": true,
   "engines": {

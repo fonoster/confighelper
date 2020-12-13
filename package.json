@@ -1,6 +1,6 @@
 {
   "name": "confighelper",
-  "version": "0.0.47",
+  "version": "#{FONOS_VERSION}",
   "description": "Helper service for the creation of configuration files",
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "config-client": "config-client.js"
   },
   "dependencies": {
-    "@fonos/certs": "^0.0.47"
+    "@fonos/certs": "^#{FONOS_VERSION}"
   },
   "preferGlobal": true,
   "engines": {

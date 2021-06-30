@@ -35,12 +35,6 @@ docker run -it \
   fonoster/confighelper
 ```
 
-## Environment Variables
-
-Run environment variables are used in the entry point script to render configuration templates. You can specify the values of these variables during `docker run`, `docker-compose up`, or in Kubernetes manifests in the `env` array.
-
-- `ENDPOINT` - Address of API Server. Defaults to `fonos.local`
-
 ## Volumes
 
 - `/config` - Location of the generated certificates
